@@ -1,5 +1,3 @@
-#!/usr/bin/python
-#-*- coding: utf-8 -*-
 # Pg compute packing defects on membranes simulations
 # R. Gautier A. Bacle april 2016
 
