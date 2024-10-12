@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 ##### Here is implemented the Connected-component_labeling algorithm
 ##### Source: http://en.wikipedia.org/wiki/Connected-component_labeling
 #####
@@ -27,9 +25,9 @@ def get_random_matrix2(nrows,ncols):
             line.append(random.randint(0,1))
         M.append(line)
     for i in range(nrows):
-        M[i][ncols/2]=0
+        M[i][ncols // 2]=0
     for j in range(ncols):
-        M[nrows/2][j]=0
+        M[nrows // 2][j]=0
     return M
 
     
